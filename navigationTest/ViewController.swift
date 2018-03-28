@@ -39,9 +39,13 @@ class ViewController: UIViewController {
          vs.text = textField.text
          default:
          break
+            }
+        func dismisAction(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
         }
     }
 }
+
 extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
