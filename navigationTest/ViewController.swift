@@ -40,10 +40,14 @@ class ViewController: UIViewController {
          default:
          break
             }
-        func dismisAction(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-        }
+        
     }
+    
+    @IBAction func dissmisAction(_ sender: Any) {
+    dismiss(animated: true, completion: nil)
+        
+    }
+    
 }
 
 extension ViewController: UITextFieldDelegate {

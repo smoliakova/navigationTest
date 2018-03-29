@@ -56,7 +56,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="7GE-pl-sRH">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="pJF-AQ-9uP"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="kbv-I4-xTj">
+                            <connections>
+                                <action selector="dissmisAction:" destination="BYZ-38-t0r" id="QI4-nO-TfN"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="slider" destination="vJm-tv-3vL" id="MEC-kS-VdA"/>
